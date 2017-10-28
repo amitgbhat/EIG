@@ -52,6 +52,7 @@ print PARFILE ("numoutlieriter: $m\n");
 print PARFILE ("numoutlierevec: $t\n");
 print PARFILE ("outliersigmathresh: $s\n");
 print PARFILE ("qtmode: $q\n");
+print PARFILE ("maxpops: 2100\n");
 if($specified{"w"}) { print PARFILE ("poplistname: $w\n"); }
 if($specified{"z"}) { print PARFILE ("badsnpname: $z\n"); }
 close(PARFILE);
