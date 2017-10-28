@@ -22,10 +22,6 @@ with open(input_file, 'r') as file:
             x.append(values);
             y.append(words[3]);
 
-c = Counter(y);
-print(c)
-exit()
-
 x = np.array(x)
 y = np.array(y)
 y = y.reshape(y.shape[0], 1)
